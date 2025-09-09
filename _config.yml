@@ -1,0 +1,14 @@
+# GitHub Pages configuration
+baseurl: "" # Leave empty if your site is at the root of your repository
+url: "" # Leave empty if your site is at the root of your repository
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
